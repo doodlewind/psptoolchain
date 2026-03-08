@@ -22,7 +22,7 @@ else
 
     ubuntu | debian)
         sudo apt-get update
-        sudo apt-get -y install build-essential clang cmake git wget texinfo bison flex gettext libtool libgsl-dev libgmp3-dev libmpfr-dev libmpc-dev libusb-dev libreadline-dev libcurl4 \
+        sudo apt-get -y install build-essential cmake git wget texinfo bison flex gettext libtool libgsl-dev libgmp3-dev libmpfr-dev libmpc-dev libusb-dev libreadline-dev libcurl4 \
         libcurl4-openssl-dev libssl-dev libarchive-dev libgpgme-dev libz-dev python3 python3-pip python3-venv
     ;;
     rhel | fedora)
